@@ -1,0 +1,12 @@
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Domain\bin\Debug\net8.0\Car.Domain.deps.json
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Domain\bin\Debug\net8.0\Car.Domain.dll
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Domain\bin\Debug\net8.0\Car.Domain.pdb
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Domain\obj\Debug\net8.0\Car.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Domain\obj\Debug\net8.0\Car.Domain.AssemblyInfoInputs.cache
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Domain\obj\Debug\net8.0\Car.Domain.AssemblyInfo.cs
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Domain\obj\Debug\net8.0\Car.Domain.csproj.CoreCompileInputs.cache
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Domain\obj\Debug\net8.0\Car.Domain.dll
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Domain\obj\Debug\net8.0\refint\Car.Domain.dll
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Domain\obj\Debug\net8.0\Car.Domain.pdb
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Domain\obj\Debug\net8.0\ref\Car.Domain.dll
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Domain\obj\Debug\net8.0\Car.Domain.csproj.AssemblyReference.cache

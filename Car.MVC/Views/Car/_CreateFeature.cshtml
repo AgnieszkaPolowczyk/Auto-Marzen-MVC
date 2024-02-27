@@ -1,0 +1,38 @@
+﻿@model Car.Application.Feature.Commands.CreateFeature.CreateFeatureCommand
+
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createFeatureModal">
+    Dodaj element wyposażenia
+</button>
+
+<div class="modal fade" id="createFeatureModal" tabindex="-1" aria-labelledby="createFeatureModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-action="CreateFeature" method="post">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="createFeatureModalLabel">Dodaj element wyposażenia</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+            </div>
+			<div class="modal-body">
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<input asp-for="CarEncodedName" class="form-control" type="hidden" />
+
+				<div class="form-group">
+					<label asp-for="Description" class="control-label">Podaj wyposażenie</label>
+					<input asp-for="Description" class="form-control" />
+					<span asp-validation-for="Description" class="text-danger"></span>
+				</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zamknij</button>
+                    <input type="submit" value="Stwórz" class="btn btn-primary">
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

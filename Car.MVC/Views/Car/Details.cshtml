@@ -1,0 +1,99 @@
+﻿@model Car.Application.Car.CarDto
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Szczegóły ogłoszenia</h1>
+<img src="~/images/@Html.DisplayFor(model => model.Image)" class="card-img-top img-fluid" alt="Car Image">
+<div class="box">
+    
+    <div class="item">
+		<p class="first">Cena</p>
+		<p class="second">@Model.Price zł</p>
+    </div>
+    <div class="item">
+		<p class="first">Marka</p>
+		<p class="second">@Model.Make</p>
+    </div>
+    <div class="item">
+		<p class="first">Model</p>
+		<p class="second">@Model.Model</p>
+    </div>
+    <div class="item">
+        <p class="first">Rok produkcji</p>
+        <p class="second">@Model.Year r.</p>
+    </div>
+    <div class="item">
+		<p class="first">Przebieg</p>
+		<p class="second">@Model.Mileage km</p>
+    </div>
+    <div class="item">
+		<p class="first">Miasto</p>
+		<p class="second">@Model.City</p>
+    </div>
+    <div class="item">
+		<p class="first">Kraj</p>
+		<p class="second">@Model.Country</p>
+    </div>
+    <div class="item">
+        <p class="first">Typ nadwozia</p>
+        <p class="second">@Model.BodyType</p>
+    </div>
+    <div class="item">
+		<p class="first">Kolor</p>
+		<p class="second">@Model.Color</p>
+    </div>
+    <div class="item">
+		<p class="first">Liczba drzwi</p>
+		<p class="second">@Model.NumberOfDoors</p>
+    </div>
+    <div class="item">
+		<p class="first">Liczba miejsc</p>
+		<p class="second">@Model.NumberofSeats</p>
+    </div>
+    <div class="item">
+        <p class="first">Rodzaj paliwa</p>
+        <p class="second">@Model.FuelType</p>
+    </div>
+    <div class="item">
+        <p class="first">Skrzynia biegów</p>
+        <p class="second">@Model.Transmission</p>
+    </div>
+    <div class="item">
+		<p class="first">Moc</p>
+		<p class="second">@Model.Power KM</p>
+    </div>
+    <div class="item">
+		<p class="first">Stan</p>
+		<p class="second">@Model.Status</p>
+    </div>
+    <div class="item">
+        <p class="first">Numer kontaktowy</p>
+        <p class="second">@Model.ContactNumber</p>
+    </div>
+    <div class="item">
+		<p class="first">VIN</p>
+		<p class="second">@Model.Vin</p>
+    </div>
+ </div>
+
+    <div class="item-description">
+        <p class="title">Opis</p>
+        <p class="text">@Model.Description</p>
+    </div>
+
+
+
+    <br />
+
+@if (Model.IsEditable)
+{
+  <a class="btn btn-outline-secondary" asp-controller="Car" asp-action="Edit" asp-route-encodedName="@Model.EncodedName">Edycja</a>
+}
+
+<h3>Wyposażenie</h3>
+<div id="features" class="row" data-encoded-name="@Model.EncodedName"></div>
+@section Scripts {
+<script src="~/js/Car/Details.js"></script>
+}

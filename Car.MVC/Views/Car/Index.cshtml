@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Car.Application.Car.CarDto>
+@using Microsoft.AspNetCore.Authorization
+@{
+    ViewData["Title"] = "Ogłoszenia";
+}
+
+<h1>Samochody osobowe</h1>
+
+@if (User.Identity!.IsAuthenticated && User != null)
+{
+   <p>
+        <a class="btn btn-info" asp-action="Create">Stwórz ogłoszenie</a>
+  </p> 
+}
+<br />
+<div class="container">
+@foreach (var item in Model) {
+        <div class="card" style="width: 70%;">
+        <img src="~/images/@Html.DisplayFor(modelItem => item.Image)" class="card-img-top">
+                <div class="card-body">
+            <h1>Cena: @item.Price zł</h1>
+            <br />
+            <h3 class="card-title">@item.Make @item.Model</h3>
+            <p class="card-text">Rok produckji: @item.Year r.</p>
+            <p class="card-text">Przebieg: @item.Mileage km</p>
+            <p class="card-text">Lokalizacja: @item.Country, @item.City</p>
+                <a class="btn btn-primary" asp-controller="Car" asp-action="Details" asp-route-encodedName="@item.EncodedName">Szczegóły</a>
+                @if(item.IsEditable)
+                {
+                <a class="btn btn-outline-secondary" asp-controller="Car" asp-action="Edit" asp-route-encodedName="@item.EncodedName">Edycja</a>
+                <a class="btn btn-outline-secondary" asp-controller="Car" asp-action="Delete" asp-route-encodedName="@item.EncodedName">Usuń</a>
+                }
+                
+        </div>
+        </div>
+    <br />
+	}
+</div>

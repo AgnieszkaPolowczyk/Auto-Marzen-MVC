@@ -1,0 +1,15 @@
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Application\bin\Debug\net8.0\Car.Application.deps.json
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Application\bin\Debug\net8.0\Car.Application.dll
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Application\bin\Debug\net8.0\Car.Application.pdb
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Application\bin\Debug\net8.0\Car.Domain.dll
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Application\bin\Debug\net8.0\Car.Domain.pdb
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Application\obj\Debug\net8.0\Car.Application.csproj.AssemblyReference.cache
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Application\obj\Debug\net8.0\Car.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Application\obj\Debug\net8.0\Car.Application.AssemblyInfoInputs.cache
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Application\obj\Debug\net8.0\Car.Application.AssemblyInfo.cs
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Application\obj\Debug\net8.0\Car.Application.csproj.CoreCompileInputs.cache
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Application\obj\Debug\net8.0\Car.Application.csproj.CopyComplete
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Application\obj\Debug\net8.0\Car.Application.dll
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Application\obj\Debug\net8.0\refint\Car.Application.dll
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Application\obj\Debug\net8.0\Car.Application.pdb
+C:\Users\agnie\Desktop\.NET backend\MVC Car\Car.Application\obj\Debug\net8.0\ref\Car.Application.dll

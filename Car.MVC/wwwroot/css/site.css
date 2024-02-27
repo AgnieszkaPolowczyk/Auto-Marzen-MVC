@@ -1,0 +1,78 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+
+.box {
+    color: black;
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.first {
+    font-weight: bold;
+    font-size:16px;
+    width: 40%;
+    margin-left: 15px;
+}
+
+.item-description {
+    color:black;
+    margin-top:20px;
+    border: 2px solid black;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.text {
+    font-size: 15px;
+    margin-left: 15px;
+}
+.second {
+    width: 60%;
+}
+
+img {
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+
+h3{
+    margin-top:40px;
+}
+
+.main{
+    margin: 10px 10px 10px 10px;
+}
